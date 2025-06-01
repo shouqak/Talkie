@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from '../Component/Nav'
 import Footer from '../Component/Footer'
+import { IoIosLock } from "react-icons/io";
 
 export default function Aboutus() {
   return (
@@ -32,10 +33,8 @@ export default function Aboutus() {
       </div>
 
       <div className="flex justify-center">
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png"
-          alt="Team chat illustration"
-          className="w-96 object-contain"
+        <IoIosLock 
+          className="w-96 h-screen object-contain text-white"
         />
       </div>
     </div>
